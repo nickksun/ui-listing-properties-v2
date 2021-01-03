@@ -1,4 +1,4 @@
-# UI Listing Properties Project 2.0
+# Ui Listing Properties Project 2.0
 An react app used to list/remove/save properties. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Development
