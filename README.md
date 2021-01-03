@@ -9,7 +9,7 @@ yarn start
 Runs the app in the development mode. 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Test
+## Test
 
 ```
 yarn test:watch
@@ -21,8 +21,8 @@ or just:
 yarn test
 ```
 
-### Deployment
-This app is deployed and hosted in [AWS Amplify](https://aws.amazon.com/amplify/). It would automatically deploy code changes once you 
+## Deployment
+This app is deployed and hosted using [AWS Amplify](https://aws.amazon.com/amplify/). It would automatically deploy code changes once you 
 push the changes to the master branch of the app. 
 
 ## Learn More
