@@ -40,6 +40,6 @@
         "eqeqeq": [
             "error",
             "always"
-        ],
+        ]
     }
 }
