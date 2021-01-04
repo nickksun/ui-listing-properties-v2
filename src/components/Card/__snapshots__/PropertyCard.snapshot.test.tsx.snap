@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Property Card render renders ADD Card correctly 1`] = `
+<div
+  className="sc-gsTCUz fcOIGg card"
+>
+  <div
+    className="sc-dlfnbm jrEzrk card-header"
+    color="#000000"
+  >
+    <img
+      alt="agency logo"
+      src="https://i2.au.reastatic.net/170x32/3015ba9710c7e3ddc2ac30f45fd7906df5b04e442a7f6948f75a6029b8b871e2/main.gif"
+    />
+  </div>
+  <img
+    alt="property image"
+    className="card-img-top"
+    src="https://i2.au.reastatic.net/640x480/5e84d96722dda3ea2a084d6935677f64872d1d760562d530c3cabfcb7bcda9c2/main.jpg"
+  />
+  <div
+    className="sc-hKgILt ezlxUD card-body"
+  >
+    <div>
+      $526,500
+    </div>
+    <button
+      className="sc-bdfBwQ dVeWDV btn btn-success"
+      disabled={false}
+      onClick={[MockFunction]}
+      test-attr="button"
+      type="button"
+    >
+      Add
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Property Card render renders REMOVE Card correctly 1`] = `
+<div
+  className="sc-gsTCUz fcOIGg card"
+>
+  <div
+    className="sc-dlfnbm jrEzrk card-header"
+    color="#000000"
+  >
+    <img
+      alt="agency logo"
+      src="https://i2.au.reastatic.net/170x32/3015ba9710c7e3ddc2ac30f45fd7906df5b04e442a7f6948f75a6029b8b871e2/main.gif"
+    />
+  </div>
+  <img
+    alt="property image"
+    className="card-img-top"
+    src="https://i2.au.reastatic.net/640x480/5e84d96722dda3ea2a084d6935677f64872d1d760562d530c3cabfcb7bcda9c2/main.jpg"
+  />
+  <div
+    className="sc-hKgILt ezlxUD card-body"
+  >
+    <div>
+      $526,500
+    </div>
+    <button
+      className="sc-bdfBwQ dVeWDV btn btn-success"
+      disabled={false}
+      onClick={[MockFunction]}
+      test-attr="button"
+      type="button"
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Property Card render renders SAVED Card correctly 1`] = `
+<div
+  className="sc-gsTCUz fcOIGg card"
+>
+  <div
+    className="sc-dlfnbm jrEzrk card-header"
+    color="#000000"
+  >
+    <img
+      alt="agency logo"
+      src="https://i2.au.reastatic.net/170x32/3015ba9710c7e3ddc2ac30f45fd7906df5b04e442a7f6948f75a6029b8b871e2/main.gif"
+    />
+  </div>
+  <img
+    alt="property image"
+    className="card-img-top"
+    src="https://i2.au.reastatic.net/640x480/5e84d96722dda3ea2a084d6935677f64872d1d760562d530c3cabfcb7bcda9c2/main.jpg"
+  />
+  <div
+    className="sc-hKgILt ezlxUD card-body"
+  >
+    <div>
+      $526,500
+    </div>
+    <button
+      className="sc-bdfBwQ dVeWDV btn btn-secondary"
+      disabled={true}
+      onClick={[MockFunction]}
+      test-attr="button"
+      type="button"
+    >
+      Saved
+    </button>
+  </div>
+</div>
+`;
