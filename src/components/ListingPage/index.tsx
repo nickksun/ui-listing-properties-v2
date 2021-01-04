@@ -1,3 +1,4 @@
+/* Listing Property Page */
 import React from "react";
 import { PropertyList } from "../PropertyList";
 import { useSelector } from "react-redux";
@@ -9,7 +10,7 @@ const BodyWrapper = styled.div`
 `;
 
 const ListWrapper = styled.div`
-  width: 65%;
+  width: 60%;
   margin: auto;
 `;
 

@@ -25,7 +25,7 @@ exports[`Property Card render renders ADD Card correctly 1`] = `
       $526,500
     </div>
     <button
-      className="sc-bdfBwQ dVeWDV btn btn-success"
+      className="sc-bdfBwQ bORxll btn btn-success"
       disabled={false}
       onClick={[MockFunction]}
       test-attr="button"
@@ -62,7 +62,7 @@ exports[`Property Card render renders REMOVE Card correctly 1`] = `
       $526,500
     </div>
     <button
-      className="sc-bdfBwQ dVeWDV btn btn-success"
+      className="sc-bdfBwQ bORxll btn btn-success"
       disabled={false}
       onClick={[MockFunction]}
       test-attr="button"
@@ -99,7 +99,7 @@ exports[`Property Card render renders SAVED Card correctly 1`] = `
       $526,500
     </div>
     <button
-      className="sc-bdfBwQ dVeWDV btn btn-secondary"
+      className="sc-bdfBwQ bORxll btn btn-secondary"
       disabled={true}
       onClick={[MockFunction]}
       test-attr="button"

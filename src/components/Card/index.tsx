@@ -1,3 +1,4 @@
+/* Property Card: shows individual propety with all details */
 import React from "react";
 import styled from "styled-components";
 import { PropertyDetails } from "../../typings/propertyType";
