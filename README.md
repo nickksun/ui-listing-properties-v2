@@ -10,16 +10,11 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Test
-
-```
-yarn test:watch
-yarn test:snaps
-yarn lint
-```
-or just:
 ```
 yarn test
 ```
+run `yarn lint:fix`
+to fix all lint issue based on ESlint
 
 ## Deployment
 This app is deployed and hosted using [AWS Amplify](https://aws.amazon.com/amplify/). It would automatically deploy code changes once you 
