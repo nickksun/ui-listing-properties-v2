@@ -1,7 +1,7 @@
 # UI Listing Properties Project 2.0
 Demo link: https://main.d10ckppdeix3ne.amplifyapp.com/
 
-- A project with React and TypeScript used to list/remove/save properties. 
+- A project with [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/) used to list/remove/save properties. 
 - Linting with [ESLint](https://eslint.org/)
 - Testing with [Jest](https://jestjs.io/) and [Enzyme](https://enzymejs.github.io/enzyme/)
 - State management with [Redux](https://redux.js.org/)
