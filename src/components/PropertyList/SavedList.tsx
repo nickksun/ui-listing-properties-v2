@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { PropertyDetails } from "../../typings/propertyType";
 import PropertyCard from "../Card";
 import { removeProperty } from "../../actions/propertyActions";
-import { CARD_STATUS } from "../../constants/cardStatusConstants";
+import  CARD_STATUS  from "../../constants/cardStatusConstants";
 
 interface Props {
   savedProperties: Array<PropertyDetails>;

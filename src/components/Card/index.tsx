@@ -54,6 +54,7 @@ const PropertyCard: React.FC<Props> = (props: Props) => {
           disabled={isSaved}
           onClick={onChange}
           variant={isSaved ? "secondary" : "success"}
+          test-attr="button"
         >
           {buttonText}
         </StyledButton>

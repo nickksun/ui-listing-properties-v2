@@ -1,8 +1,8 @@
-export const SAVE_PROPERTY = "SAVE_PROPERTY";
+export const ADD_PROPERTY = "ADD_PROPERTY";
 export const REMOVE_PROPERTY = "REMOVE_PROPERTY";
 
 export interface SavePropertyAction {
-    type: typeof SAVE_PROPERTY,
+    type: typeof ADD_PROPERTY,
     propertyId: string
 }
 

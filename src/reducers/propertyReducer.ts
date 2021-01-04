@@ -1,4 +1,4 @@
-import { SAVE_PROPERTY, REMOVE_PROPERTY, PropertyActionTypes} from "../constants/actionConstants"; 
+import { ADD_PROPERTY, REMOVE_PROPERTY, PropertyActionTypes} from "../constants/actionConstants"; 
 import { PropertyState } from "../typings/propertyType";
 
 const initialPropertyState : PropertyState = {
@@ -50,7 +50,7 @@ const initialPropertyState : PropertyState = {
 
 export function propertyReducer(state = initialPropertyState, action: PropertyActionTypes): PropertyState  {
     switch(action.type) {
-        case SAVE_PROPERTY: 
+        case ADD_PROPERTY: 
             return {
                 ...state,
                 saved: [...state.saved, ...state.results.filter(property => property.id === action.propertyId)]

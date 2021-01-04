@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { PropertyDetails } from "../../typings/propertyType";
 import { savePropery } from "../../actions/propertyActions";
-import { CARD_STATUS } from "../../constants/cardStatusConstants";
+import CARD_STATUS from "../../constants/cardStatusConstants";
 import PropertyCard from "../Card";
 
 interface Props {
@@ -30,7 +30,7 @@ const ResultList: React.FC<Props> = (props: Props) => {
             buttonText={
               isSaved(p.id)
                 ? CARD_STATUS.SAVED_PROPERTY
-                : CARD_STATUS.SAVE_PROPERTY
+                : CARD_STATUS.ADD_PROPERTY
             }
             isSaved={isSaved(p.id)}
             onChange={() => dispatch(savePropery(p.id))}
